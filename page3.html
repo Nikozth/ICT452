@@ -1,35 +1,233 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8"> 
+<meta charset="utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {margin:25px;}
-
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+* {
+  box-sizing: border-box;
 }
 
-div.container {
+body {
+  margin: 0;
+}
+
+/* Head style */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
   text-align: center;
-  padding: 10px 20px;
+}
+
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation link */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Link - Change color */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right width */
+.column.side {
+  width: 25%;
+}
+
+/* Intermediate width */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear float after column */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive Layout - Set up and down layout if width is less than 600px */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
 }
 </style>
 </head>
 <body>
 
-<h2>Web design process</h2>
-
-<div class="polaroid">
-  <img src="https://i.postimg.cc/ht2ySH5P/QQ-20230326234121.png" alt="Norway" style="width:100%">
-  <div class="container">
-    
-  </div>
+<div class="header">
+  <h1>Welcome to the Information navigation website</h1>
+  <p>Page3</p>
 </div>
 
+<div class="topnav">
+  <a href="https://nikozth.github.io/ICT452/page1.html">Page1</a>
+  <a href="https://nikozth.github.io/ICT452/page2.html">Page2</a>
+  <a href="https://nikozth.github.io/ICT452/page3.html">Page3</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Page1</h2>
+    <p>My personal introduction</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Page2</h2>
+    <p>design portfolio</p>
+  </div>
+  
+  <div class="column side">
+    <h2>page3</h2>
+    <p>Design process</p>
+  </div>
+</div>
+	
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <nav>
+      <!-- Navigation bar content -->
+    </nav>
+    <main>
+      <section class="jumbotron">
+        <html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+     .center {
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+}
+    .center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+    p.groove {border-style: groove;}
+body {
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: rgb(128, 51, 0);
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+      </ul>
+    <div class="center">
+    <h1>Web Design Flowchart</h1>
+    <p class="groove"> This flowchart will explain how to design a website 
+        <br />At each step, effective communication and collaboration with customers and other team members is required to ensure that the final design of a website meets user needs and business goals.</p>
+        <a href="https://i.postimg.cc/hj5xhtsK/QQ-20230326234121.png"><img src="https://i.postimg.cc/hj5xhtsK/QQ-20230326234121.png"  /></a>
+        <p>You can click on the image to view</p>
+    </div>
+        <table id="customers">
+            <tr>
+                <th>The Values of Web Designer</th>
+                <th>My hobbies</th>
+               
+            </tr>
+            <tr>
+                <td>1.Practical, careful and responsible</td>
+                <td>Play basketball</td>
+              
+            </tr>
+            <tr>
+                <td>2.Focus on teamwork and communication skills</td>
+                <td>Play computer games</td>
+               
+            </tr>
+            <tr>
+                <td>3. Love technology and innovative thinking</td>
+                <td>read a book</td>
+               
+            </tr>
+            <tr>
+                <td>4. Always maintain an optimistic and positive attitude</td>
+                <td>Delve into new web design knowledge</td>
+              
+            </tr>
+            <tr>
+
+               
+            </tr>
+            <tr>
+              
+               
 
 
+</body>
+</html>
+      
+  
 </body>
 </html>
