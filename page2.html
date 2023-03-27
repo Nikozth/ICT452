@@ -1,23 +1,225 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8"> 
+<meta charset="utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-img {
-    border-radius: 8px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Head style */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation link */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Link - Change color */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right width */
+.column.side {
+  width: 25%;
+}
+
+/* Intermediate width */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear float after column */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive Layout - Set up and down layout if width is less than 600px */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
 }
 </style>
 </head>
 <body>
 
-<img src="https://i.postimg.cc/qqPCCwS7/QQ-20230326230849.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/rwCtKSJ8/QQ-20230326230921.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/2SF0d9YM/QQ-20230326230958.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/hjws4H8z/QQ-20230326231010.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/XNRLR67t/QQ-20230326231024.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/4dKv0WCJ/QQ-20230326231044.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/C5kGhdLX/QQ-20230326231056.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/DZbs6ms0/QQ-20230326231110.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/c4WY7xJ1/QQ-20230326231134.png" alt="Paris" width="400" height="300">
-<img src="https://i.postimg.cc/XvtBr3hb/QQ-20230326231204.png" alt="Paris" width="400" height="300">
-</body>
+<div class="header">
+  <h1>Welcome to the Information navigation website</h1>
+  <p>Page2</p>
+</div>
+
+<div class="topnav">
+  <a href="https://nikozth.github.io/ICT452/page1.html">Page1</a>
+  <a href="#">Page2</a>
+  <a href="#">Page3</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Page1</h2>
+    <p>My personal introduction</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Page2</h2>
+    <p>design portfolio</p>
+  </div>
+  
+  <div class="column side">
+    <h2>page3</h2>
+    <p>Design process</p>
+  </div>
+</div>
+	<meta charset="utf-8"> 
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/RZyFHM0G/20230327155753.png">
+      <img src="https://i.postimg.cc/RZyFHM0G/20230327155753.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is the home page of a website</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/rwCtKSJ8/QQ-20230326230921.png">
+      <img src="https://i.postimg.cc/rwCtKSJ8/QQ-20230326230921.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is the home page of a test platform</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/2SF0d9YM/QQ-20230326230958.png.jpg">
+      <img src="https://i.postimg.cc/2SF0d9YM/QQ-20230326230958.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is the home page of a company</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/hjws4H8z/QQ-20230326231010.png">
+      <img src="https://i.postimg.cc/hjws4H8z/QQ-20230326231010.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is an educational administration</div>
+  </div>
+</div>
+	<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/4dKv0WCJ/QQ-20230326231044.png">
+      <img src="https://i.postimg.cc/4dKv0WCJ/QQ-20230326231044.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is a product introduction page</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/C5kGhdLX/QQ-20230326231056.png">
+      <img src="https://i.postimg.cc/C5kGhdLX/QQ-20230326231056.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is a login page</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/XNRLR67t/QQ-20230326231024.png.jpg">
+      <img src="https://i.postimg.cc/XNRLR67t/QQ-20230326231024.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is a home page</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/c4WY7xJ1/QQ-20230326231134.png">
+      <img src="https://i.postimg.cc/c4WY7xJ1/QQ-20230326231134.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is a message viewing interface</div>
+  </div>
+</div>
+	<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/DZbs6ms0/QQ-20230326231110.png">
+      <img src="https://i.postimg.cc/DZbs6ms0/QQ-20230326231110.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is a login page</div>
+  </div>
+</div>
+ <div class="responsive">
+  <div class="img">
+    <a target="_blank" href="https://i.postimg.cc/XvtBr3hb/QQ-20230326231204.png">
+      <img src="https://i.postimg.cc/XvtBr3hb/QQ-20230326231204.png" alt="图片文本描述" width="300" height="200">
+    </a>
+    <div class="desc">This is a statistical interface</div>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <nav>
+      <!-- Navigation bar content -->
+    </nav>
+    <main>
+
+</html>
